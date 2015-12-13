@@ -14,4 +14,5 @@ for i in range(10):
 call('git init', shell = True)
 call('git add .', shell = True)
 call('git commit -m "commiting..."', shell = True)
+call('git remote add origin https://github.com/9at8/PiCamFossasia.git', shell = True)
 call('git push origin master', shell = True)
