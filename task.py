@@ -9,7 +9,7 @@ for i in range(10):
     # Camera warm-up
     sleep(2)
     # Image captured as img_i.jpg
-    capture.capture('img_' + str(i) + '.jpg')
+    camera.capture('img_' + str(i) + '.jpg')
 
 call('git init', shell = True)
 call('git add .', shell = True)
